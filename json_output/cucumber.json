@@ -1,0 +1,352 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7815920400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is present on login page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_is_present_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d96.0.4664.110)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027AH4000735LT\u0027, ip: \u0027192.168.238.57\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\KAVITA~1.CHO\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e9cbf6cc810ac6629e1b845a052abf2e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat stepDefinition.LoginAddCustomerAddTariffPlan.title_of_loginpage_is_gtpl_bank_homepage(LoginAddCustomerAddTariffPlan.java:41)\r\n\tat ✽.title of login page is GTPL Bank Home Page(file:///C:/Users/kavita.chonkar/git/BackgroundKeyword/src/test/resources/features/BackGround.feature:6)\r\n",
+              "duration": 133762700,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "title of login page is GTPL Bank Home Page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.title_of_loginpage_is_gtpl_bank_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters userID and password",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_enter_userid_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userID",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mngr376749",
+                  "vavAqUp"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_clicks_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on telecom project",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_click_on_telecom_project()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T11:28:52.977Z",
+        "line": 14,
+        "name": "telecom project and add customers test scenario",
+        "description": "",
+        "id": "guru99-login-and-create-telecom-project-and-add-tariff-plan;telecom-project-and-add-customers-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user clicks on add customer",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user selects background check as done and enters billing address",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_selects_background_check_and_enterts_billing_address(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "address",
+                  "mobilenumber"
+                ]
+              },
+              {
+                "cells": [
+                  "madhuri",
+                  "dhondge",
+                  "gauravdhondge@gmail.com",
+                  "Nashik",
+                  "8007975732"
+                ]
+              },
+              {
+                "cells": [
+                  "mangesh",
+                  "dhondge",
+                  "kulkarnijayesh11@gmail.com",
+                  "Mumbai",
+                  "8830407067"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user again comes on telecom projects homepage",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_again_comes_on_telecom_projects_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557851000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is present on login page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_is_present_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d96.0.4664.110)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027AH4000735LT\u0027, ip: \u0027192.168.238.57\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\KAVITA~1.CHO\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: afe4b26dd3e5067d0b111a86c4e45b5d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat stepDefinition.LoginAddCustomerAddTariffPlan.title_of_loginpage_is_gtpl_bank_homepage(LoginAddCustomerAddTariffPlan.java:41)\r\n\tat ✽.title of login page is GTPL Bank Home Page(file:///C:/Users/kavita.chonkar/git/BackgroundKeyword/src/test/resources/features/BackGround.feature:6)\r\n",
+              "duration": 5983400,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "title of login page is GTPL Bank Home Page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.title_of_loginpage_is_gtpl_bank_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters userID and password",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_enter_userid_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userID",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mngr376749",
+                  "vavAqUp"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_clicks_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on telecom project",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_click_on_telecom_project()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T11:29:01.084Z",
+        "line": 24,
+        "name": "telecom project and add tariff plan test scenario",
+        "description": "",
+        "id": "guru99-login-and-create-telecom-project-and-add-tariff-plan;telecom-project-and-add-tariff-plan-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user clicks on add tariff plan",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_clicks_on_add_tariff_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1069400,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enters add tariff plan details and clicks on submit button",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_enters_add_tariff_plan_details_and_clicks_on_submit_button(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "monthly rental",
+                  "free local min",
+                  "free international min",
+                  "free sms pack",
+                  "local per min charges",
+                  "international per min charges",
+                  "sms per charges"
+                ]
+              },
+              {
+                "cells": [
+                  "1223",
+                  "100",
+                  "200",
+                  "250",
+                  "10",
+                  "12",
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "1223",
+                  "100",
+                  "200",
+                  "250",
+                  "10",
+                  "12",
+                  "5"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user again comes to telecom projects homepage by clicking on telecom project",
+            "match": {
+              "location": "stepDefinition.LoginAddCustomerAddTariffPlan.user_again_comes_to_telecom_projects_homepage_by_clicking_on_homebutton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 login and create telecom project and add tariff plan",
+    "description": "",
+    "id": "guru99-login-and-create-telecom-project-and-add-tariff-plan",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BackGround.feature",
+    "tags": []
+  }
+]
